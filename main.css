@@ -1,0 +1,56 @@
+body {
+    font-family: Chakra Petch, sans-serif;
+}
+
+.navbar,
+footer {
+    background-color: rgb(1, 11, 12);
+}
+
+#cabecalho .nav .nav-link.active,
+.nav-produtos .nav-link.active {
+    background-color: #fff;
+    color: rgb(1, 11, 12);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+section p,
+.nav-produtos button,
+.nav-produtos .nav-link:hover,
+.endereco {
+    color: #fff;
+}
+
+.navbar-toogler {
+    background-color: #fff;
+}
+
+section {
+    background-color: rgb(11, 14, 15);
+}
+
+.section-title {
+    font-family: Play, sans-serif;
+}
+
+.nav-produtos .nav-link.active:hover {
+    color: rgb(1, 11, 12);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
